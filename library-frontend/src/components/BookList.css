@@ -1,0 +1,107 @@
+.book-list-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.book-details {
+  margin-bottom: 10px;
+}
+
+.book-details input[type="text"] {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.button-group button {
+  margin-right: 5px;
+}
+
+.book-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.show-list-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.show-list-button:hover {
+  background-color: #0056b3;
+}
+
+.book-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.book-item {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-item:hover {
+  background-color: #f9f9f9;
+}
+
+.book-details {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.book-input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.book-info {
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.button-group {
+  display: flex;
+}
+
+.update-button, .delete-button, .save-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.update-button:hover, .delete-button:hover, .save-button:hover {
+  background-color: #218838;
+}
+
+
+@media screen and (max-width: 768px) {
+  .book-details input[type="text"] {
+    width: calc(50% - 5px);
+  }
+}
